@@ -1,0 +1,93 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Secciones */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+.intro {
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+/* Servicios */
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servicio {
+    background-color: #e7f3e7;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.servicio h3 {
+    color: #333;
+}
+
+/* Testimonios */
+.testimonios {
+    background-color: #f9f9f9;
+    padding: 50px;
+}
+
+.testimonio {
+    font-style: italic;
+    margin: 20px;
+}
+
+/* Formulario de contacto */
+.contacto input,
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de Página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
